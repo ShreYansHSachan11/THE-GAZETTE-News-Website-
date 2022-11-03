@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=PT+Serif&family=Roboto&family=Squada+One&display=swap');
+.news-app {
+    display: flex;
+    justify-content: center;
+    width: 303px;
+    margin: 0px 50px;
+    max-height:500px;
+    
+    
+}
+
+.news-item {
+    width: 500px;
+    padding: 20px;
+    /* border: 1px solid; */
+    
+    margin:20px 50px;
+}
+.news-item h3{
+    position: relative;
+    margin-top: -6px;
+    display: flex;
+    justify-content: center;
+    font-family: font-3;
+    font-size: 25px;
+    text-align: center;
+    background-color:#1AC073;
+    font-family: 'PT Serif', serif;
+    
+}
+.news-item a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.news-img {
+    width: 400px;
+    height: 470px;
+    filter:brightness(0.7);
+}
